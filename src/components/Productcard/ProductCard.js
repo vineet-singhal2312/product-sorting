@@ -25,10 +25,10 @@ export default function ProductCard({ product }) {
       <CardActionArea>
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
-            ₹{product.name}
+            {product.name}
           </Typography>
           <Typography variant="h6" color="textSecondary" component="h3">
-            {product.price} Rs
+            ₹{product.price} Rs
           </Typography>
           <Typography gutterBottom variant="caption" component="h5">
             Description: {product.description}
