@@ -50,7 +50,7 @@ export const ProductList = () => {
           {categoryList.map((category) => (
             <MenuItem
               onClick={() => dispatch(categoryFilter(category.id))}
-              value={10}
+              value={category}
             >
               {category.name}
             </MenuItem>
